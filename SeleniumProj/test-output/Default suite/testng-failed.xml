@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumJava.Tc1">
+      <class name="SeleniumJava.UsingDataProvider">
         <methods>
+          <include name="testTitle"/>
           <include name="closeBrowser"/>
           <include name="launchDriver"/>
-          <include name="test1"/>
         </methods>
-      </class> <!-- SeleniumJava.Tc1 -->
+      </class> <!-- SeleniumJava.UsingDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
