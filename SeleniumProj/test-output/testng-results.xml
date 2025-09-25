@@ -1,25 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-25T01:58:06 IST" name="Default suite" finished-at="2025-09-25T01:58:09 IST" duration-ms="2656">
+  <suite started-at="2025-09-25T23:34:04 IST" name="Default suite" finished-at="2025-09-25T23:34:28 IST" duration-ms="24508">
     <groups>
     </groups>
-    <test started-at="2025-09-25T01:58:06 IST" name="Default test" finished-at="2025-09-25T01:58:09 IST" duration-ms="2656">
-      <class name="SeleniumJava.Tc1">
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:SeleniumJava.Tc1@5c6648b0]" started-at="2025-09-25T01:58:06 IST" name="launchDriver" finished-at="2025-09-25T01:58:07 IST" duration-ms="1335" status="PASS">
+    <test started-at="2025-09-25T23:34:04 IST" name="Default test" finished-at="2025-09-25T23:34:28 IST" duration-ms="24508">
+      <class name="SeleniumJava.UsingDataProvider">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:SeleniumJava.UsingDataProvider@6f1de4c7]" started-at="2025-09-25T23:34:04 IST" name="launchDriver" finished-at="2025-09-25T23:34:13 IST" duration-ms="9691" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="test1()[pri:0, instance:SeleniumJava.Tc1@5c6648b0]" started-at="2025-09-25T01:58:07 IST" name="test1" finished-at="2025-09-25T01:58:09 IST" duration-ms="1173" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:SeleniumJava.UsingDataProvider@6f1de4c7]" started-at="2025-09-25T23:34:13 IST" name="login" data-provider="create" finished-at="2025-09-25T23:34:14 IST" duration-ms="308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumJava.Tc1@5c6648b0]" started-at="2025-09-25T01:58:09 IST" name="closeBrowser" finished-at="2025-09-25T01:58:09 IST" duration-ms="105" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumJava.UsingDataProvider@6f1de4c7]" started-at="2025-09-25T23:34:14 IST" name="closeBrowser" finished-at="2025-09-25T23:34:14 IST" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- SeleniumJava.Tc1 -->
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:SeleniumJava.UsingDataProvider@6f1de4c7]" started-at="2025-09-25T23:34:14 IST" name="launchDriver" finished-at="2025-09-25T23:34:18 IST" duration-ms="4213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:SeleniumJava.UsingDataProvider@6f1de4c7]" started-at="2025-09-25T23:34:18 IST" name="login" data-provider="create" finished-at="2025-09-25T23:34:19 IST" duration-ms="1126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumJava.UsingDataProvider@6f1de4c7]" started-at="2025-09-25T23:34:19 IST" name="closeBrowser" finished-at="2025-09-25T23:34:19 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:SeleniumJava.UsingDataProvider@6f1de4c7]" started-at="2025-09-25T23:34:19 IST" name="launchDriver" finished-at="2025-09-25T23:34:24 IST" duration-ms="4251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:SeleniumJava.UsingDataProvider@6f1de4c7]" started-at="2025-09-25T23:34:24 IST" name="login" data-provider="create" finished-at="2025-09-25T23:34:24 IST" duration-ms="295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[stu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumJava.UsingDataProvider@6f1de4c7]" started-at="2025-09-25T23:34:24 IST" name="closeBrowser" finished-at="2025-09-25T23:34:24 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:SeleniumJava.UsingDataProvider@6f1de4c7]" started-at="2025-09-25T23:34:24 IST" name="launchDriver" finished-at="2025-09-25T23:34:28 IST" duration-ms="4037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method signature="testTitle()[pri:0, instance:SeleniumJava.UsingDataProvider@6f1de4c7]" started-at="2025-09-25T23:34:28 IST" name="testTitle" finished-at="2025-09-25T23:34:28 IST" duration-ms="20" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Logged In Successfully | Practice Test Automation] but found [Test Login | Practice Test Automation]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Logged In Successfully | Practice Test Automation] but found [Test Login | Practice Test Automation]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at SeleniumJava.UsingDataProvider.testTitle(UsingDataProvider.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumJava.UsingDataProvider@6f1de4c7]" started-at="2025-09-25T23:34:28 IST" name="closeBrowser" finished-at="2025-09-25T23:34:28 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SeleniumJava.UsingDataProvider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
